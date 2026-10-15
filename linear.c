@@ -24,14 +24,12 @@ void imprimir(int v[], int n) {
 
 int main() {
     int n = 10;
-    
-    // FORMA CORRETA EM C: Inicializar o vetor direto com os valores entre chaves { }
     int dados[10] = {8, 19, 20, 2, 15, 16, 9, 15, 2, 16};
     
     bool sair = false;
     int op;
 
-    imprimir(dados, n); // Mostra o vetor fixo na tela ao iniciar
+    imprimir(dados, n);
     printf("\n");
 
     while (!sair) {
